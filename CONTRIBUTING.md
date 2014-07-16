@@ -15,4 +15,4 @@ To stay on the list, projects should follow these quality standards:
 * Documented
 * Tests
 
-Thanks to all [contributors](https://github.com/markets/awesome-ruby/graphs/contributors), you're awesome and wouldn't be possible without you!
+Thanks to all [contributors](https://github.com/PerfectCarl/awesome-play1/graphs/contributors), you're awesome and wouldn't be possible without you!
