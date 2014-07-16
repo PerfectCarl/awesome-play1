@@ -8,9 +8,21 @@ Contributions are always welcome! Please take a look at the [contribution guidel
 
 # Modules
 
+## Templates
+
+## Persistence
+
+## Deployment
+
+## Security
+
+
 # Tools
 
 # Resources
 
-[Mavenized modules](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules]
+[Mavenized modules](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules)
+
+- [Using Play's controller](http://www.javabeat.net/using-controllers-in-play-framework/) with a nice roundup about caching, expiration and eTags
+- Using Luo's `cache4` [annotation](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules)
 
