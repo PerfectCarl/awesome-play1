@@ -12,3 +12,5 @@ Contributions are always welcome! Please take a look at the [contribution guidel
 
 # Resources
 
+[Mavenized modules](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules]
+
