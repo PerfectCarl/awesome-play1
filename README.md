@@ -8,8 +8,9 @@ Contributions are always welcome! Please take a look at the [contribution guidel
 
 # Modules
 
-[accesslog] ![official](http://img.shields.io/badge/ -official-green.svg?style=flat)   ![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)
+[accesslog] ![official](http://img.shields.io/badge/ -official-green.svg?style=flat)      ![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)
 > A Play framework module that performs request logging similar to an access log file in nginx or apache.
+>
 > [Project page](https://github.com/briannesbitt/play-accesslog) ![github](http://img.shields.io/badge/ -github-lightgrey.svg?style=flat)
 
 * Templates
