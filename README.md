@@ -8,15 +8,28 @@ Contributions are always welcome! Please take a look at the [contribution guidel
 
 # Modules
 
-## Templates
+* Templates
+  * Faster groovy templates
+  * Rythm
+  * Markdown
+  * 
+  
+* Persistence
+  * Siena 
+  * Morphia
+  * 
+  
+* Deployment
+  * Google App Engine
 
-## Persistence
-
-## Deployment
-
-## Security
-
-
+* Security
+  * Deadbolt
+  * 
+  
+* Performance and auditing
+  * Hibernate statistics
+  * profiler
+  
 # Tools
 
 # Resources
