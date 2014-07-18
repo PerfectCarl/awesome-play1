@@ -16,6 +16,7 @@ Contributions are always welcome! Please take a look at the [contribution guidel
 
 [[accesslog] accesslog](http://www.playframework.com/modules/accesslog) [![official](http://img.shields.io/badge/ -official-green.svg?style=flat)](http://www.playframework.com/modules/accesslog) 
 > A Play framework module that performs request logging similar to an access log file in nginx or apache. 
+>
 > [Project page](https://github.com/briannesbitt/play-accesslog) 
 
 * Templates
