@@ -15,33 +15,576 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
 >
 > [Project page](https://github.com/briannesbitt/play-accesslog) ![github](http://img.shields.io/badge/ -github-lightgrey.svg?style=flat)
 
+## Database 
 
-[[accesslog] accesslog](http://www.playframework.com/modules/accesslog) [![official](http://img.shields.io/badge/ -official-green.svg?style=flat)](http://www.playframework.com/modules/accesslog)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.accesslog/play-accesslog) 
+[[carbonate] carbonate](http://www.playframework.com/modules/carbonate) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/carbonate) 
+> Module for creating and running database migrations for Play application. Uses Hibernate schema update to automatically generate SQL to the migrations. See this blog [post](http://huljas.github.com/code/2011/04/04/managing-database-with-play-carbonate.html) 
+>
+> [Project page](https://github.com/huljas/play-carbonate) 
+
+[[jpagen] JpaGen](http://www.playframework.com/modules/jpagen) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/jpagen) 
+> JPAGEN aim at generating JPA Entities and Composite keys (when needed) from metadata or a file containing a list of tables. 
+>
+> [Project page](http://github.com/marcuspocus/jpagen) 
+
+[[liquibase] liquibase](http://www.playframework.com/modules/liquibase) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/liquibase) 
+> [Liquibase](http://www.liquibase.org) is a simple, reliable and elegant solution for database refactoring management 
+
+[[logisimayml] logisima-yml](http://www.playframework.com/modules/logisimayml) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/logisimayml) 
+> Logisima-yml helps you to export your database into an yml file 
+
+[[migrate] Database migration](http://www.playframework.com/modules/migrate) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/migrate) 
+> This module allows you to easily maintain database versions for your project. 
+
+[[multidb] Multiple Databases](http://www.playframework.com/modules/multidb) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/multidb) 
+> This module allows you to scale your Play! apps to multiple databases with a common schema. 
+
+[[db] Database module](http://www.playframework.com/modules/db) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/db)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.db/play-db) 
+> Export your Play! domain model to a DDL file and import a database into your Play! domain model. 
+>
+> [Project page](http://github.com/pepite/play--database) 
+
+## Deployment 
+
+[[capistrano] capistrano](http://www.playframework.com/modules/capistrano) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/capistrano) 
+> Here is a draft module to deploy a remote play app using Capistrano + SSH + VCS and run it in nohup/background mode. 
+>
+> [Project page](https://github.com/mandubian/play-capistrano) 
+
+[[cargo] cargo](http://www.playframework.com/modules/cargo) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cargo) 
+> This module helps you remotely deploy your Play! application. 
+>
+> [Project page](https://github.com/dgouyette/play-cargo) 
+
+[[cloudbees] CloudBees](http://www.playframework.com/modules/cloudbees) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cloudbees) 
+> This module provides integration with CloudBees. 
+>
+> [Project page](https://github.com/hadashi/play-cloudbees) 
+
+[[cloudfoundry] CloudFoundry](http://www.playframework.com/modules/cloudfoundry) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cloudfoundry) 
+> In CloudFoundry, when a database resource is linked to an application, the credentials are put in an environment variable. This module automatically reads this variable and configures the Play database. 
+>
+> [Project page](https://github.com/bcourtine/play--cloudfondry) 
+
+[[dotcloud] dotcloud](http://www.playframework.com/modules/dotcloud) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/dotcloud) 
+> This module helps you deploy your Play! application to dotcloud 
+>
+> [Project page](https://github.com/lsinger/play-dotcloud) 
+
+[[gae] Google App Engine](http://www.playframework.com/modules/gae) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/gae)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.gae/play-gae) 
+> Create play application for the Google App Engine platform. 
+>
+> [Project page](http://github.com/guillaumebort/play-gae) 
+
+[[heroku] heroku](http://www.playframework.com/modules/heroku) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/heroku) 
+> This module makes it easy to deploy Play applications on Heroku. 
+>
+> [Project page](https://github.com/jamesward/play-heroku) 
+
+[[openebay] Open eBay](http://www.playframework.com/modules/openebay) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/openebay) 
+> This module provides the basic plumbing to create an [Open eBay Application](http://apps.ebay.com/) 
+
+[[openshift] openshift](http://www.playframework.com/modules/openshift) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/openshift) 
+> Openshift is Red Hat’s free, auto-scaling, cloud-based platform-as-a-service for Java, Perl, PHP, Python, and Ruby applications. 
+
+[[playapps] playapps.net](http://www.playframework.com/modules/playapps) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/playapps) 
+> playapps.net is a streamlined deployment environment designed to get your Play applications up and running quickly and efficiently 
+
+[[reverseproxy] ReverseProxy](http://www.playframework.com/modules/reverseproxy) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/reverseproxy) 
+> ReverseProxy allows developers to configure web applications to automatically switch between the HTTP and HTTPS protocols per page when used behind a front end  
+
+[[router] Play Router Annotations](http://www.playframework.com/modules/router) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/router)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.router/play-router) 
+> This module allows you to add routes through annotations, allowing you to declare your routes in your controllers. 
+
+[[stax] stax](http://www.playframework.com/modules/stax) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/stax) 
+> Easy deployment to Stax cloud hosting platform (http://www.stax.net). 
+>
+> [Project page](http://github.com/erwan/playstax) 
+
+[[vhost] VHost](http://www.playframework.com/modules/vhost) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/vhost) 
+> Adds some virtual hosts functionality with separate datasource and customizable application settings for each virtual host. 
+>
+> [Project page](https://github.com/lyubo/play-vhost) 
+
+## Forms 
+
+[[formee] Formee](http://www.playframework.com/modules/formee) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/formee) 
+> Formee eases and helps out to build html forms designs, and also validates its data from both client-side and server-side based on model validation annotations. 
+>
+> [Project page](https://github.com/omaroman/formee) 
+
+## Injection/dependencies 
+
+[[constretto] constretto](http://www.playframework.com/modules/constretto) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/constretto)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.constretto/play-constretto) 
+> Module thats make integration with the Constretto configration framework easy 
+>
+> [Project page](https://github.com/zapodot/constretto-play) 
+
+[[guice] guice](http://www.playframework.com/modules/guice) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/guice)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.guice/play-guice) 
+> The Guice module helps you to inject Guice managed components into your play application. 
+>
+> [Project page](http://github.com/pk11/play-guice-module) 
+
+[[ivy] Ivy dependency management](http://www.playframework.com/modules/ivy) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/ivy) 
+> This module lets you manage your dependencies with apache ivy. 
+>
+> [Project page](http://github.com/pk11/play-ivy) 
+
+[[jqueryui] jqueryui](http://www.playframework.com/modules/jqueryui) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/jqueryui) 
+> The jQuery UI module provides working examples of jQuery UI widgets, integrated with a Play application. 
+>
+> [Project page](https://github.com/lunatech-labs/play-module-jqueryui) 
+
+[[maven] Maven dependency management](http://www.playframework.com/modules/maven) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/maven) 
+> This module lets you manage your dependencies with apache mave 
+
+[[spring] spring](http://www.playframework.com/modules/spring) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/spring)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.spring/play-spring) 
+> This module allows to use Spring managed beans inside your play! 1.x applications. 
+
+## Language 
+
+[[googleclosure] Google Closure](http://www.playframework.com/modules/googleclosure) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/googleclosure) 
+> This module is aimed at integrating Google Closure tools with play!. 
+>
+> [Project page](http://code.google.com/p/mandubian-play-google-closure/) 
+
+[[gwt] Google Web Toolkit](http://www.playframework.com/modules/gwt) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/gwt) 
+> This module provides a helper to simplify the integration of a GWT UI with Play as an application server. 
+>
+> [Project page](http://code.google.com/p/play-framework-gwt/) 
+
+[[gwt2] GWT2](http://www.playframework.com/modules/gwt2) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/gwt2) 
+> Integrates Play with GWT 
+>
+> [Project page](http://github.com/vbuzzano/play-gwt2) 
+
+[[scala] scala](http://www.playframework.com/modules/scala) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/scala)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.scala/play-scala) 
+> Play Scala enables you to use the Scala language for your application keeping key properties of the Play framework 
+
+## Messaging 
+
+[[camel] camel](http://www.playframework.com/modules/camel) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/camel) 
+> A EIP + Messaging module for the Play! Framework 
+>
+> [Project page](https://github.com/marcuspocus/play-camel) 
+
+## Model 
+
+[[chronostamp] chronostamp](http://www.playframework.com/modules/chronostamp) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/chronostamp) 
+> Chronostamp enhances Models by adding magic timestamp fields (created_at & updated_at) and it will automatically record creation and update timestamps of database objects in an unobtrusive way. 
+>
+> [Project page](https://github.com/omaroman/chronostamp) 
+
+## Monitoring 
+
+[[accesslog] accesslog](http://www.playframework.com/modules/accesslog) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/accesslog)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.accesslog/play-accesslog) 
 > A Play framework module that performs request logging similar to an access log file in nginx or apache. 
 >
 > [Project page](https://github.com/briannesbitt/play-accesslog) 
 
-* Templates
-  * Faster groovy templates
-  * Rythm
-  * Markdown
-  * 
-  
-* Persistence
-  * Siena 
-  * Morphia
-  * 
-  
-* Deployment
-  * Google App Engine
+[[betterlogs] BetterLogs](http://www.playframework.com/modules/betterlogs) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/betterlogs) 
+> This very simple module enhances the Play! Framework logs to bring some missing information such as the class name, the method name where the log has been called, its signature, the file name and the line. 
+>
+> [Project page](https://github.com/sgodbillon/BetterLogs) 
 
-* Security
-  * Deadbolt
-  * 
-  
-* Performance and auditing
-  * Hibernate statistics
-  * profiler
+[[jpastats] jpastats](http://www.playframework.com/modules/jpastats) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/jpastats) 
+> Record how many database queries were executed during a request 
+>
+> [Project page](https://github.com/eamelink/play-jpastats/) 
+
+[[playerrors] playerrors](http://www.playframework.com/modules/playerrors) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/playerrors) 
+> Playerrors gathers and informs you about the errors in your production webapps, so you can fix them before your visitors get a chance to complain 
+
+[[recordtracking] RecordTracking](http://www.playframework.com/modules/recordtracking) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/recordtracking) 
+> RecordTracking unobtrusively tracks the creation, updating and elimination events regarding to records. 
+
+[[statsd] statsd](http://www.playframework.com/modules/statsd) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/statsd) 
+> The module is a wrapper over [StatsD](https://github.com/etsy/statsd) which allow for dead simple statistic aggregation from within play. 
+>
+> [Project page](https://github.com/rkroll/play-statsd/) 
+
+[[infoplay] InfoPlay](http://www.playframework.com/modules/infoplay) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/infoplay) 
+> InfoPlay is a module which gives many informations like infophp in PHP language. 
+>
+> [Project page](http://code.google.com/p/infoplay/) 
+
+[[log4play] Log4Play](http://www.playframework.com/modules/log4play) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/log4play) 
+> Log4Play is a module that provides a log4j appender which publishes log entries to an EventStream 
+
+## Persistence 
+
+[[associations] associations](http://www.playframework.com/modules/associations) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/associations)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.associations/play-associations) 
+> This module reduces the code to manage bi-directional associations. 
+>
+> [Project page](https://github.com/pareis/play-associations) 
+
+[[cream] JCR for Play!](http://www.playframework.com/modules/cream) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cream) 
+> A module that seamlessly integrates Apache Jackrabbit(JCR 2.0) with Play framework 
+>
+> [Project page](https://github.com/mfornos/Cream) 
+
+[[ebean] EBean ORM support](http://www.playframework.com/modules/ebean) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/ebean)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.ebean/play-ebean) 
+> Adds Ebean ORM to play!. Still in very experimental phase. 
+>
+> [Project page](https://github.com/lyubo/play-ebean) 
+
+[[mongo] MongoDB](http://www.playframework.com/modules/mongo) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/mongo) 
+> This module provides a simple, elegant solution for using models stored in mongodb. For a more complex use cases, please take a look at the morphia module. 
+
+[[morphia] MongoDB Integration](http://www.playframework.com/modules/morphia) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/morphia)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.morphia/play-morphia) 
+> Seamlessly MongoDB access integration with Play’s Model interface. 
+
+[[mybatisplay] MyBatisPlay](http://www.playframework.com/modules/mybatisplay) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/mybatisplay) 
+> This module provides support for MyBatis persistence framework. 
+
+[[neo4j] logisima-neo4j](http://www.playframework.com/modules/neo4j) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/neo4j) 
+> Integrate neo4j database into your play! project. 
+
+[[objectify] objectify](http://www.playframework.com/modules/objectify) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/objectify) 
+> Objectify is a flexible abstraction on Google App Engine/J which makes data access simple and elegant 
+
+[[orientdb] OrientDB](http://www.playframework.com/modules/orientdb) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/orientdb) 
+> OrientDB for Play! Framework 
+
+[[redis] redis](http://www.playframework.com/modules/redis) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/redis)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.redis/play-redis) 
+> The Redis Play! module helps you easily use Redis in your Play! applications 
+
+[[siena] siena](http://www.playframework.com/modules/siena) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/siena)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.siena/play-siena) 
+> The siena module enables Siena support to map your Java entities to GAE/MySQL/PostgreSQL/H2 from your play application 
+
+[[twig] twig](http://www.playframework.com/modules/twig) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/twig) 
+> Twig superpowers Google App Engine’s Datastore for Play applications. Get a fluid API, in-memory joins, and asynchronous queries out of the box. 
+>
+> [Project page](https://github.com/netmau5/Play-Twig) 
+
+## Presentation 
+
+[[coffee] CoffeeScript](http://www.playframework.com/modules/coffee) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/coffee)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.coffee/play-coffee) 
+> CoffeeScript is a great way to produce javascript. This module provides support for it (Java and Scala). 
+>
+> [Project page](https://github.com/robfig/play-coffee) 
+
+[[greenscript] Minimize javascript/css files](http://www.playframework.com/modules/greenscript) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/greenscript) 
+> Play with your javascript/css files! 
+>
+> [Project page](http://github.com/greenlaw110/greenscript) 
+
+[[less] Less module](http://www.playframework.com/modules/less) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/less)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.less/play-less) 
+> The less module automatically converts [less](http://lesscss.org/) to CSS, and handles error reporting in your Play application 
+
+[[press] Minimize javascript/css files](http://www.playframework.com/modules/press) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/press) 
+> The press module is a JavaScript, CSS and Less minimizer that is designed to be transparent to the application developer. 
+
+[[crudsiena] CRUD for Siena](http://www.playframework.com/modules/crudsiena) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/crudsiena) 
+> The CRUD (Create, Read, Update, Delete) Siena module a fully usable web 
+interface for your Siena Model objects with a few more features than 
+default CRUD.  
+>
+> [Project page](https://github.com/mandubian/play-crud-siena) 
+
+[[excel] excel](http://www.playframework.com/modules/excel) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/excel)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.excel/play-excel) 
+> Template based Excel report generator 
+>
+> [Project page](http://github.com/greenlaw110/play-excel) 
+
+[[html5validation] HTML5 Validation](http://www.playframework.com/modules/html5validation) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/html5validation) 
+> Client-side form validation based on your Play framework model annotations using HTML5 attributes. 
+>
+> [Project page](https://github.com/oasits/play-html5-validation) 
+
+[[menu] menu](http://www.playframework.com/modules/menu) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/menu) 
+> help app developer to easily implement navigation menu 
+
+[[mocha] mocha](http://www.playframework.com/modules/mocha) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/mocha) 
+> Mocha module for Play! Framework is an implementation of mocha UI javascript interface for Play! 
+
+[[navigation] navigation](http://www.playframework.com/modules/navigation) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/navigation) 
+> Define and display navigation menus in your Play application.  
+
+[[paginate] paginate](http://www.playframework.com/modules/paginate) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/paginate)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.paginate/play-paginate) 
+> A replacement for #{list} tags that allows for easy pagination. 
+
+[[pdf] PDF module](http://www.playframework.com/modules/pdf) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/pdf)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.pdf/play-pdf) 
+> A module that allows you to render PDF document from your HTML templates. This module is based on the YaHP Converter library. 
+
+[[sass] Syntactically Awesome Stylesheets](http://www.playframework.com/modules/sass) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/sass)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.sass/play-sass) 
+> Sass makes CSS fun again. Sass is CSS, plus nested rules, variables, mixins, and more, all in a concise, readable syntax.  
+
+[[table] table](http://www.playframework.com/modules/table) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/table)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.table/play-table) 
+> This module aims to simplify the code needed to display data in HTML tables. 
+>
+> [Project page](https://github.com/julienrf/play-table) 
+
+[[tabularasa] Tabula Rasa](http://www.playframework.com/modules/tabularasa) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/tabularasa) 
+> Tabula Rasa provides support for user-customisable tables in views 
+>
+> [Project page](https://github.com/schaloner/tabula-rasa) 
+
+[[twitterbootstrap] twitterbootstrap](http://www.playframework.com/modules/twitterbootstrap) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/twitterbootstrap) 
+> Play module that bundles up the twitter-bootstrap stylekit and the play less plugin, so that you can use twitter-bootstrap, edit the .less files and have your changes picked up and dynamically rendered to css. 
+>
+> [Project page](http://www.playframework.com/modules/twitterbootstrap) 
+
+[[markdown] markdown](http://www.playframework.com/modules/markdown) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/markdown)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.markdown/play-markdown) 
+> Easily bring markdown contents into your application. 
+
+[[pegdown] PegDown Markdown](http://www.playframework.com/modules/pegdown) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/pegdown) 
+> Integrate the pegdown [Markdown](https://github.com/sirthias/pegdown) processor with your Play application 
+
+## Rest 
+
+[[jersey] jersey](http://www.playframework.com/modules/jersey) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/jersey) 
+> Integrates Jersey into the Play! Framework. 
+>
+> [Project page](https://bitbucket.org/psartini/play-jersey) 
+
+[[resteasy] RESTEasy Play! module](http://www.playframework.com/modules/resteasy) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/resteasy) 
+> The RESTEasy Play! module allows you to define JAX-RS RESTful web services in the Play! Framework using RESTEasy. 
+
+[[resteasycrud] RESTEasy CRUD module](http://www.playframework.com/modules/resteasycrud) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/resteasycrud) 
+> The Play! RESTEasy CRUD module which allows you to automagically generate your RESTful CRUD resources for a given model 
+
+[[swagger] swagger](http://www.playframework.com/modules/swagger) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/swagger) 
+> Creates a self-documenting meta-description for REST APIs which allows for code-gen, UI-sandbox, and test framework. 
+>
+> [Project page](https://github.com/wordnik/swagger-play) 
+
+## Security 
+
+[[browserid] BrowserID](http://www.playframework.com/modules/browserid) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/browserid) 
+> BrowserID is an experimental new way of signing into websites. The goal with BrowserID is to design something safe and easy for users and the developers. 
+>
+> [Project page](https://github.com/orefalo/play-browserid) 
+
+[[cas] logisima-cas](http://www.playframework.com/modules/cas) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cas) 
+> This module is a CAS client for Play! application. 
+>
+> [Project page](http://github.com/sim51/logisima-play-cas) 
+
+[[casino] casino](http://www.playframework.com/modules/casino) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/casino) 
+> This project provides a simple method to integrate sign-up and password recovery to your project 
+>
+> [Project page](https://github.com/reyez/casino-play) 
+
+[[deadbolt] deadbolt](http://www.playframework.com/modules/deadbolt) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/deadbolt)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.deadbolt/play-deadbolt) 
+> Deadbolt is an authorisation mechanism for defining access rights to certain controller methods or parts of a view 
+>
+> [Project page](https://github.com/schaloner/deadbolt) 
+
+[[fbconnect] Facebook connect](http://www.playframework.com/modules/fbconnect) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/fbconnect) 
+> Easily integrate Facebook based authentication into any Play framework application. 
+>
+> [Project page](https://github.com/murz/play-fbconnect) 
+
+[[force] Force.com](http://www.playframework.com/modules/force) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/force) 
+> Build Play! applications that integrates to Force.com. Provides OAuth authentication and REST API adapter. 
+>
+> [Project page](https://github.com/jesperfj/play-force) 
+
+[[linkedin] LinkedIn OAuth Authentication](http://www.playframework.com/modules/linkedin) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/linkedin) 
+> Easily integrate LinkedIn’s OAuth authentication into your Play Framework application 
+
+[[oauth] OAuth Client](http://www.playframework.com/modules/oauth) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/oauth) 
+> This module provides tools to connect to an OAuth provider, such as Twitter or Google. 
+
+[[recaptcha] recaptcha](http://www.playframework.com/modules/recaptcha) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/recaptcha)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.recaptcha/play-recaptcha) 
+> Quickly integrate reCaptcha.com challenge-response test in your applications. 
+
+[[scalasecure] Scala secure](http://www.playframework.com/modules/scalasecure) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/scalasecure) 
+> This module provides basic security (authentication/ authorization) for Play applications written in Scala. 
+
+[[securepermissions] Secure Permissions](http://www.playframework.com/modules/securepermissions) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/securepermissions) 
+> The Secure Permissions Play! module extends the Secure module in Play! Framework to add permission checks based on the rule-based permissions in the Seam Framework (based on Drools rules). 
+
+[[securesocial] SecureSocial](http://www.playframework.com/modules/securesocial) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/securesocial)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.securesocial/play-securesocial) 
+> SecureSocial allows you to add an authentication UI to your app that works with services based on OAuth1, OAuth2, OpenID and OpenID+OAuth hybrid protocols 
+
+[[shibboleth] shibboleth](http://www.playframework.com/modules/shibboleth) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/shibboleth) 
+> Allow users to login to your Play! application via Shibboleth. 
+
+## Template 
+
+[[fastergt] Faster Groovy Templates](http://www.playframework.com/modules/fastergt) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/fastergt)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.fastergt/play-fastergt) 
+> This is a module for Play! Framework 1 applications which replaces the default groovy template implementation with GT-Engine which is faster and uses less memory. 
+>
+> [Project page](https://github.com/mbknor/faster-groovy-templates) 
+
+[[japid] Japid Template Engine](http://www.playframework.com/modules/japid) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/japid)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.japid/play-japid) 
+> A pure Java-based fast statically typed template engine for the Play! framework version 1.2.x. 
+>
+> [Project page](http://github.com/branaway/Japid) 
+
+[[mustache] mustache](http://www.playframework.com/modules/mustache) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/mustache) 
+> Allows you to define logic-less template snippets that can be used server-side in your Play! views as well as client-side in your JavaScript. 
+
+[[rythm] Rythm Template Engine](http://www.playframework.com/modules/rythm) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/rythm)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.rythm/play-rythm) 
+> PlayRythm is a Razor like template engine. 
+
+[[scalate] scalate](http://www.playframework.com/modules/scalate) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/scalate) 
+> [Scalate](http://scalate.fusesource.org) Template engine support.  
+
+[[thymeleaf] thymeleaf](http://www.playframework.com/modules/thymeleaf) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/thymeleaf) 
+> Play framework module to use [Thymeleaf 2.0](http://www.thymeleaf.org/)  as a template engine. 
+>
+> [Project page](https://github.com/choreo/play-thymeleaf) 
+
+## Test 
+
+[[mockito] mockito](http://www.playframework.com/modules/mockito) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/mockito)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.mockito/play-mockito) 
+> Mockito is a mocking framework that tastes really good 
+
+## Testing 
+
+[[httpmock] HttpMock](http://www.playframework.com/modules/httpmock) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/httpmock) 
+> play-httpmock caches WebService requests to emulate them in order to overcome connection problems (lag, denial of service, HTTP errors) for fast developping. 
+>
+> [Project page](http://github.com/zenexity/play--httpmock) 
+
+[[qunit] QUnit](http://www.playframework.com/modules/qunit) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/qunit)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.qunit/play-qunit) 
+> The QUnit module provides integration of JUnit Javascript tests with the Play! Framework. 
+
+[[spocktests] Spock tests](http://www.playframework.com/modules/spocktests) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/spocktests) 
+> This module allows running [Spock](https://code.google.com/p/spock/) specifications and to write BDD style tests (still wrapped as  junit) with the expressive power of groovy. 
+
+[[springtester] spring tester](http://www.playframework.com/modules/springtester) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/springtester)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.springtester/play-springtester) 
+> Write tests that can auto-magically inject mocks (using Mockito) into Play applications wired up using the spring module. 
+>
+> [Project page](https://github.com/digiarnie/springtester) 
+
+[[tests] Alternative Test module](http://www.playframework.com/modules/tests) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/tests) 
+> The Test Module for Play!Framework helps you write tests quicker, is a cleaner and reusable manner. 
+>
+> [Project page](https://github.com/GuyMograbi/play_test_module) 
+
+[[webdrive] webdrive](http://www.playframework.com/modules/webdrive) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/webdrive)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.webdrive/play-webdrive) 
+> WebDrive module provides Selenium 2 testing support for Play framework 
+>
+> [Project page](https://github.com/rkaippully/play-webdrive) 
+
+## Translation 
+
+[[i18ntools] i18ntools](http://www.playframework.com/modules/i18ntools) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/i18ntools) 
+> This module will add some tools to ease use of i18n in your Play! projects. 
+>
+> [Project page](http://github.com/naholyr/i18ntools) 
+
+[[messages] @messages](http://www.playframework.com/modules/messages) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/messages)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.messages/play-messages) 
+> Module messages provides a web based tool for managing your application’s localizations. 
+
+[[nemrod] nemrod](http://www.playframework.com/modules/nemrod) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/nemrod) 
+> This module helps to import and export translations from your application to a Nemrod instance automatically. 
+
+## Misc 
+
+[[akka] Akka support](http://www.playframework.com/modules/akka) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/akka) 
+> akka (http://akkasource.org) is a platform for building simple, correct, fault-tolerant, concurrent, and scalable applications for the JVM. This module allows you to configure akka through The Play! framework’s conf/application.conf file; it provides a few command-line scripts to start akka when your application starts; and it has some examples of it in action. 
+>
+> [Project page](http://github.com/dwhitney/akka) 
+
+[[bespin] Bespin online editor](http://www.playframework.com/modules/bespin) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/bespin) 
+> Bespin is a Mozilla Labs experiment on how to build an extensible web code editor using HTML 5 technology. The play bespin module allows you to edit all the application sources directly in the browser using bespin. 
+>
+> [Project page](http://github.com/erwan/playbespin) 
+
+[[bhave] bhave](http://www.playframework.com/modules/bhave) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/bhave) 
+> Integrates with [bhave](http://bhave.org/), a web-based behavior driven development (BDD) framework, for web apps, done in a funky way! 
+>
+> [Project page](http://bhave.org/) 
+
+[[cheese] cheese](http://www.playframework.com/modules/cheese) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cheese) 
+> Simplified API for integration Play! applications with the CheddarGetter subscription management service. 
+>
+> [Project page](https://github.com/lmcalpin/Play--Cheese) 
+
+[[cms] cms](http://www.playframework.com/modules/cms) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cms) 
+> A very simple embedded CMS 
+>
+> [Project page](http://code.google.com/p/play-cms/) 
+
+[[cnm] Content Negotiation](http://www.playframework.com/modules/cnm) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cnm) 
+> The content negotiation module helps using content types which are not directly supported by the Play! framework such as VCard and Atom/RSS feeds using annotations. 
+>
+> [Project page](http://github.com/oasits/play-content-negotiation) 
+
+[[cobertura] Cobertura](http://www.playframework.com/modules/cobertura) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/cobertura)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.cobertura/play-cobertura) 
+> Cobertura is a free Java tool that calculates the percentage of code accessed by tests. It can be used to identify which parts of your Java program are lacking test coverage. 
+>
+> [Project page](http://github.com/julienba/play-cobertura) 
+
+[[elasticsearch] ElasticSearch](http://www.playframework.com/modules/elasticsearch) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/elasticsearch) 
+> Elastic Search is a Distributed Search Solution based on Apache Lucene. This module provides an embedded Elastic Server instance for Rapid Development. 
+>
+> [Project page](http://geeks.aretotally.in/play-framework-module-elastic-search-distributed-searching-with-json-http-rest-or-java) 
+
+[[externalconfig] External Config](http://www.playframework.com/modules/externalconfig) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/externalconfig) 
+> Allows easy loading of external config / properties files. This allows for easy configuration of an app deployed in a war. 
+>
+> [Project page](https://github.com/rugbyhead/externalconfig) 
+
+[[featureflags] Feature Flags](http://www.playframework.com/modules/featureflags) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/featureflags) 
+> play-featureflags is a module for playframework that enables you to easily use ‘feature flags’ in your application. A feature flag is any piece of functionality in your application that you want to be able to switch ON and OFF at runtime, using an admin screen. 
+>
+> [Project page](http://code.google.com/p/play-featureflags) 
+
+[[googlecheckout] Google Checkout](http://www.playframework.com/modules/googlecheckout) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/googlecheckout) 
+> Enable your Play application to integrate with Google Checkout as a merchant. 
+>
+> [Project page](https://github.com/jagregory/play-google-checkout) 
+
+[[gravatar] gravatar](http://www.playframework.com/modules/gravatar) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/gravatar)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.gravatar/play-gravatar) 
+> Integrate Gravatar into your Play application 
+>
+> [Project page](https://github.com/mbarbieri/play-gravatar) 
+
+[[hazelcast] hazelcast](http://www.playframework.com/modules/hazelcast) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/hazelcast)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.hazelcast/play-hazelcast) 
+> This module is a dropin replacement for EhCacheImpl or MemcachedImpl from Play 
+>
+> [Project page](https://github.com/marcuspocus/hazelcast) 
+
+[[jelastic] Jelastic Deployment Support](http://www.playframework.com/modules/jelastic) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/jelastic) 
+> This module helps you remotely deploy your Play! application in to Jelastic Platform. 
+>
+> [Project page](https://github.com/Fameing/play-jelastic) 
+
+[[jqvalidate] JQuery Validation](http://www.playframework.com/modules/jqvalidate) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/jqvalidate) 
+> Client-side form validation via jQuery, based on your Play framework model annotation 
+>
+> [Project page](https://github.com/murz/play-jqvalidate) 
+
+[[jqvalidation] jqvalidation](http://www.playframework.com/modules/jqvalidation) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/jqvalidation) 
+> A jquery library API for validation, supports Ajax validation (per field or per Form) 
+>
+> [Project page](http://code.google.com/p/jqvalidate-play-framework/) 
+
+[[postmark] postmark](http://www.playframework.com/modules/postmark) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/postmark)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.postmark/play-postmark) 
+> Postmark module provides easy integration with postmarkapp.com for handling outgoing emails 
+
+[[pusher] pusher](http://www.playframework.com/modules/pusher) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/pusher) 
+> This module lets you easily add realtime functionality to your Play applications with [Pusher](http://www.pusher.com) using websockets. 
+
+[[rabbitmq] RabbitMQ](http://www.playframework.com/modules/rabbitmq) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/rabbitmq) 
+> RabbitMQ offers a highly available and scalable, and yet lightweight, messaging system. 
+
+[[riak] riak](http://www.playframework.com/modules/riak) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/riak) 
+> Allow to use riak-java-client in play! way. 
+
+[[s3blobs] S3Blobs](http://www.playframework.com/modules/s3blobs) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/s3blobs) 
+> The S3Blobs Play Framework Module provides an easy way to read an write files from Amazon S3 from within JPA entities. 
+
+[[scaffold] scaffold](http://www.playframework.com/modules/scaffold) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/scaffold) 
+> Scaffold will generate basic scaffolding for bootstrapping a project from your JPA or Senia entities 
+
+[[scalagen] Scala Gen](http://www.playframework.com/modules/scalagen) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/scalagen) 
+> Scala code generators for the Play! framework 
+
+[[search] search](http://www.playframework.com/modules/search) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/search)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.search/play-search) 
+> Search allows you to have basic full text search functionalities to your JPA Model. It is based on Lucene. 
+
+[[useragentcheck] UserAgentCheck](http://www.playframework.com/modules/useragentcheck) [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/useragentcheck) 
+> UserAgentCheck provides an easy way to notify users when their browser is outdated. It displays a banner (blocking or non blocking) that drives the user to a page where he/she may download an upgrade. 
+>
+> [Project page](https://github.com/orefalo/play-useragentcheck) 
+
   
 # Tools
 
