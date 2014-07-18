@@ -8,13 +8,15 @@ Contributions are always welcome! Please take a look at the [contribution guidel
 
 # Modules
 
+All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ipGbktIRnwyipoIpP3bcR-JlpEM3S_OA31r40-L0)
+
 [accesslog] ![official](http://img.shields.io/badge/ -official-green.svg?style=flat) _ [![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.accesslog/play-accesslog)
 > A Play framework module that performs request logging similar to an access log file in nginx or apache.
 >
 > [Project page](https://github.com/briannesbitt/play-accesslog) ![github](http://img.shields.io/badge/ -github-lightgrey.svg?style=flat)
 
 
-[[accesslog] accesslog](http://www.playframework.com/modules/accesslog) [![official](http://img.shields.io/badge/ -official-green.svg?style=flat)](http://www.playframework.com/modules/accesslog) 
+[[accesslog] accesslog](http://www.playframework.com/modules/accesslog) [![official](http://img.shields.io/badge/ -official-green.svg?style=flat)](http://www.playframework.com/modules/accesslog)[![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.accesslog/play-accesslog) 
 > A Play framework module that performs request logging similar to an access log file in nginx or apache. 
 >
 > [Project page](https://github.com/briannesbitt/play-accesslog) 
