@@ -215,7 +215,7 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
 
 # Resources
 
-- [Mavenized modules](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules)
+- [Mavenized modules](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules) and [how to use them](https://code.google.com/p/maven-play-plugin/wiki/Usage)
 - [Using Play's controller](http://www.javabeat.net/using-controllers-in-play-framework/) with a nice roundup about caching, expiration and eTags
 - Using Luo's `cache4` [annotation](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules)
 - [How to write modules](http://www.packtpub.com/article/play-framework-introduction-writing-modules)
