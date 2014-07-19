@@ -14,16 +14,16 @@ Lists all the modules available for Play 1.x.
  * [![Updated since the play module registry was frozen](http://img.shields.io/badge/ -updated-ff69b4.svg?style=flat)]()
 
 All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ipGbktIRnwyipoIpP3bcR-JlpEM3S_OA31r40-L0)
- * [Database](#Database) 
- * [Deployment](#Deployment) 
- * [Forms](#Forms) 
- * [Injection/dependencies](#Injection/dependencies) 
- * [Language](#Language) 
- * [Monitoring](#Monitoring) 
- * [Persistence](#Persistence) 
- * [Presentation](#Presentation) 
- * [Rest](#Rest) 
- * [Security](#Security) 
+ * [Database](#database) 
+ * [Deployment](#deployment) 
+ * [Forms](#forms) 
+ * [Injection/dependencies](#injection/dependencies) 
+ * [Language](#language) 
+ * [Monitoring](#monitoring) 
+ * [Persistence](#persistence) 
+ * [Presentation](#presentation) 
+ * [Rest](#rest) 
+ * [Security](#security) 
 
 
 ## Template 
