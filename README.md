@@ -7,10 +7,29 @@ A collection of awesome Play 1.x [modules](#modules), [tools](#tools), and [reso
 Contributions are always welcome! Please take a look at the [contribution guidelines and quality standard](https://github.com/PerfectCarl/awesome-play1/blob/master/CONTRIBUTING.md) first.
 
 # Modules
+Lists all the modules available for Play 1.x.
+ * [![registered on playframework.com/modules](http://img.shields.io/badge/registered-yes-green.svg?style=flat)](http://www.playframework.com/modules/carbonate) : 
+ * [![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.db/play-db)
+ * [![registered on playframework.com/modules](http://img.shields.io/badge/registered-no-red.svg?style=flat)](https://github.com/PerfectCarl/play-profiler)
+ * [![Updated since the play module registry was frozen](http://img.shields.io/badge/ -updated-ff69b4.svg?style=flat)]()
 
 All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ipGbktIRnwyipoIpP3bcR-JlpEM3S_OA31r40-L0)
+ * [Database](#Database) 
+ * [Deployment](#Deployment) 
+ * [Forms](#Forms) 
+ * [Injection/dependencies](#Injection/dependencies) 
+ * [Language](#Language) 
+ * [Monitoring](#Monitoring) 
+ * [Persistence](#Persistence) 
+ * [Presentation](#Presentation) 
+ * [Rest](#Rest) 
+ * [Security](#Security) 
 
-## Database 
+
+## Template 
+## Translation 
+## Misc 
+### Database 
 
 * **[[carbonate] Carbonate](http://www.playframework.com/modules/carbonate)** [![registered on playframework.com/modules](http://img.shields.io/badge/registered-yes-green.svg?style=flat)](http://www.playframework.com/modules/carbonate) Module for creating and running database migrations for Play application. Uses Hibernate schema update to automatically generate SQL to the migrations. See this blog [post](http://huljas.github.com/code/2011/04/04/managing-database-with-play-carbonate.html) 
 
