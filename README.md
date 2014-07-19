@@ -17,7 +17,7 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
  * [Database](#database) 
  * [Deployment](#deployment) 
  * [Forms](#forms) 
- * [Injection/dependencies](#injection/dependencies) 
+ * [Injection/dependencies](#injectiondependencies) 
  * [Language](#language) 
  * [Monitoring](#monitoring) 
  * [Persistence](#persistence) 
