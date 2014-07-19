@@ -7,7 +7,7 @@ A collection of awesome Play 1.x [modules](#modules), [tools](#tools), and [reso
 [Contributions](https://github.com/PerfectCarl/awesome-play1/blob/master/CONTRIBUTING.md) are always welcome! 
 
 # Modules
-Lists all the modules available for Play 1.x. with the following `badges` : 
+Lists all the modules available with the following `badges` : 
 
 | Badge                                                                                                                                                                                 | Meaning                                                                                                                                                                                                                      |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -17,7 +17,7 @@ Lists all the modules available for Play 1.x. with the following `badges` :
 | [![Updated since the play module registry was frozen](http://img.shields.io/badge/ -updated-ff69b4.svg?style=flat)](https://github.com/PerfectCarl/play-profiler)                     | the module has been updated since [playframework.com/modules](http://www.playframework.com/modules) has been frozen. The badge points to the official module page.                                                           |
 
 
-All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ipGbktIRnwyipoIpP3bcR-JlpEM3S_OA31r40-L0)
+The modules are divided in the following categories : 
  * [Database](#database) 
  * [Deployment](#deployment) 
  * [Injection/dependencies](#injectiondependencies) 
@@ -33,6 +33,8 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
  * [Template](#template) 
  * [Translation](#translation) 
  * [Misc](#misc) 
+
+If you want to contribute information about a module, please refer to the [guide](https://github.com/PerfectCarl/awesome-play1/blob/master/CONTRIBUTING.md#module).
 
 ## Database 
 
