@@ -1,18 +1,15 @@
 # Contribution Guidelines
 
-* Use the following format: ```[LIBRARY](LINK) - DESCRIPTION```
+## Tools and Resources 
+
 * The link should be the name of the package or project
 * Keep descriptions concise, clear and simple
 * New categories, or improvements to the existing ones are also welcome
 
-## Quality standard
+## Module
 
-To stay on the list, projects should follow these quality standards:
+To contribute a new module or provide correction, please edit the [spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ipGbktIRnwyipoIpP3bcR-JlpEM3S_OA31r40-L0).
 
-* Generally useful to the community
-* Actively maintained (even if that just means acknowledging open issues when they arise)
-* Stable
-* Documented
-* Tests
+If you know that a module has been updated recently, put `TRUE` in the `updated` column.
 
 Thanks to all [contributors](https://github.com/PerfectCarl/awesome-play1/graphs/contributors), you're awesome and wouldn't be possible without you!
