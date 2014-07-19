@@ -8,6 +8,7 @@ A collection of awesome Play 1.x [modules](#modules), [tools](#tools), and [reso
 
 # Modules
 Lists all the modules available for Play 1.x. with the following `badges` : 
+
 | Badge                                                                                                                                                                                 | Meaning                                                                                                                                                                                                                      |  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![registered on playframework.com/modules](http://img.shields.io/badge/registered-yes-green.svg?style=flat)](http://www.playframework.com/modules/carbonate)                         | the module is registered in [playframework.com/modules](http://www.playframework.com/modules). The badge points to the registered page.                                                                                      |
