@@ -22,7 +22,7 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
  * [Deployment](#deployment) 
  * [Injection/dependencies](#injectiondependencies) 
  * [Language](#language) 
- * [Messaging/events](messagingevents) 
+ * [Messaging/events](#messagingevents) 
  * [Monitoring](#monitoring) 
  * [Persistence](#persistence) 
  * [Presentation](#presentation) 
