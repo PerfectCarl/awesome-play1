@@ -24,11 +24,12 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
  * [Presentation](#presentation) 
  * [Rest](#rest) 
  * [Security](#security) 
+ * [Template](#Template) 
+ * [Translation](#Translation) 
+ * [Misc](#Misc) 
+ * [](#) 
+ * [](#) 
 
-
-## Template 
-## Translation 
-## Misc 
 ### Database 
 
 * **[[carbonate] Carbonate](http://www.playframework.com/modules/carbonate)** [![registered on playframework.com/modules](http://img.shields.io/badge/registered-yes-green.svg?style=flat)](http://www.playframework.com/modules/carbonate) Module for creating and running database migrations for Play application. Uses Hibernate schema update to automatically generate SQL to the migrations. See this blog [post](http://huljas.github.com/code/2011/04/04/managing-database-with-play-carbonate.html) 
