@@ -8,10 +8,10 @@ A collection of awesome Play 1.x [modules](#modules), [tools](#tools), and [reso
 
 # Modules
 Lists all the modules available for Play 1.x.
- * [![registered on playframework.com/modules](http://img.shields.io/badge/registered-yes-green.svg?style=flat)](http://www.playframework.com/modules/carbonate) : the module is registered in [playframework.com/modules](http://www.playframework.com/modules]. The badge points to the registered page.
- * [![registered on playframework.com/modules](http://img.shields.io/badge/registered-no-red.svg?style=flat)](https://github.com/PerfectCarl/play-profiler) : the module is **not** registered in [playframework.com/modules](http://www.playframework.com/modules]. You have to add an external repository in your `dependencies.yml` file. The badge points to the official module page.
+ * [![registered on playframework.com/modules](http://img.shields.io/badge/registered-yes-green.svg?style=flat)](http://www.playframework.com/modules/carbonate) : the module is registered in [playframework.com/modules](http://www.playframework.com/modules). The badge points to the registered page.
+ * [![registered on playframework.com/modules](http://img.shields.io/badge/registered-no-red.svg?style=flat)](https://github.com/PerfectCarl/play-profiler) : the module is **not** registered in [playframework.com/modules](http://www.playframework.com/modules). You have to add an external repository in your `dependencies.yml` file. The badge points to the official module page.
  * [![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.db/play-db) : the module is available in MavenCentral thanks to the [maven-play-plugin](https://code.google.com/p/maven-play-plugin). The badge poins to 
- * [![Updated since the play module registry was frozen](http://img.shields.io/badge/ -updated-ff69b4.svg?style=flat)]() : the module has been updated since [playframework.com/modules](http://www.playframework.com/modules] has been frozen. the badge points to the official module page.  
+ * [![Updated since the play module registry was frozen](http://img.shields.io/badge/ -updated-ff69b4.svg?style=flat)]() : the module has been updated since [playframework.com/modules](http://www.playframework.com/modules) has been frozen. the badge points to the official module page.  
 
 All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ipGbktIRnwyipoIpP3bcR-JlpEM3S_OA31r40-L0)
  * [Database](#database) 
