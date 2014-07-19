@@ -24,11 +24,10 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
  * [Presentation](#presentation) 
  * [Rest](#rest) 
  * [Security](#security) 
- * [Template](#Template) 
- * [Translation](#Translation) 
- * [Misc](#Misc) 
- * [](#) 
- * [](#) 
+ * [Template](#template) 
+ * [Translation](#translation) 
+ * [Misc](#misc) 
+
 
 ### Database 
 
