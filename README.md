@@ -10,10 +10,6 @@ Contributions are always welcome! Please take a look at the [contribution guidel
 
 All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ipGbktIRnwyipoIpP3bcR-JlpEM3S_OA31r40-L0)
 
-[accesslog] ![official](http://img.shields.io/badge/ -official-green.svg?style=flat) _ [![mavenized](http://img.shields.io/badge/ -mavenized-blue.svg?style=flat)](http://mvnrepository.com/artifact/com.google.code.maven-play-plugin.org.playframework.modules.accesslog/play-accesslog)
-> A Play framework module that performs request logging similar to an access log file in nginx or apache.
->
-> [Project page](https://github.com/briannesbitt/play-accesslog) ![github](http://img.shields.io/badge/ -github-lightgrey.svg?style=flat)
 
 * **[[tabularasa] Tabula Rasa](http://www.playframework.com/modules/tabularasa)** [![registered on playframework.com/modules](http://img.shields.io/badge/ -registred-green.svg?style=flat)](http://www.playframework.com/modules/tabularasa) Tabula Rasa provides support for user-customisable tables in views 
 
@@ -154,6 +150,7 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
 
 
 # Tools
+* You know a tool that every player should use? [Tell us!](https://github.com/PerfectCarl/awesome-play1/edit/master/README.md)*
 
 # Resources
 
@@ -161,12 +158,3 @@ All the modules in [a spreadsheet](https://docs.google.com/spreadsheets/d/1b-_ip
 - [Using Play's controller](http://www.javabeat.net/using-controllers-in-play-framework/) with a nice roundup about caching, expiration and eTags
 - Using Luo's `cache4` [annotation](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules)
 - [How to write modules](http://www.packtpub.com/article/play-framework-introduction-writing-modules)
-
->  *Note:* don't use - in the folder of your module name. A barely 
->  Your module is found only under the name "play" because Play has a (barely documented) check build in to detect dashes ("-") and ignore everything after the last dash. 
-> 
-> Since you called your module "play-profiler" (remember it only detects the name by the folder name), it strips the (last and only) dash and everything after it, leaving only "play". 
->
-> See the Play source line that does this [here](https://github.com/playframework/play1/blob/1.2.x/framework/src/play/Play.java#L705).
->
->I can't find why this is as it is, but it is known, judging by this bug [ticket with a "wontfix" status]( http://play.lighthouseapp.com/projects/57987/tickets/828-module-names-cant-contain-dash-characters)
