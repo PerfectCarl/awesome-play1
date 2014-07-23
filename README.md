@@ -227,5 +227,4 @@ If you want to contribute information about a module, please refer to the [guide
 
 - [Mavenized modules](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules) and [how to use them](https://code.google.com/p/maven-play-plugin/wiki/Usage)
 - [Using Play's controller](http://www.javabeat.net/using-controllers-in-play-framework/) with a nice roundup about caching, expiration and eTags
-- Using Luo's `cache4` [annotation](https://code.google.com/p/maven-play-plugin/wiki/MavenizedModules)
-- [How to write modules](http://www.packtpub.com/article/play-framework-introduction-writing-modules)
+- Using [Luo](https://github.com/greenlaw110)'s `cache4` [annotation](https://groups.google.com/d/msg/play-framework/tPtZuL0OB0k/AkExgNAZoHwJ)
