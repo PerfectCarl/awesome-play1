@@ -1,4 +1,4 @@
-# Awesome Play1 [![play-isthe1!](http://img.shields.io/badge/play-isthe1-red.svg?style=flat)](https://github.com/markets/awesome-ruby)
+# Awesome Play1 [![play-isthe1!](http://img.shields.io/badge/play-isthe1-red.svg?style=flat)](https://github.com/markets/awesome-ruby) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A collection of awesome Play 1.x [modules](#modules), [tools](#tools), and [resources](#resources).
 
